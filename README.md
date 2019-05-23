@@ -17,3 +17,7 @@ For the A-star
 state = readState "...a\n==.a\n....\n....\n"
 printSolution state (solve_astar state)
 ```
+
+The input should be a string of the form "...a\n==.a\n....\n....\n" where \n denotes the change of line. The car we are moving is denoted as '=', the empty spaces are denoted as '.' and the rest of the cars can be any other symbol. 
+
+You can find more info about the game [here](https://en.wikipedia.org/wiki/Rush_Hour_(puzzle))
